@@ -1,0 +1,25 @@
+{
+  "name": "reader",
+  "type": "module",
+  "collaborators": [
+    "Nathan Laan"
+  ],
+  "description": "A Rust Feed Reader implemented in WASM.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanLaan/reader/"
+  },
+  "files": [
+    "reader_bg.wasm",
+    "reader.js",
+    "reader.d.ts"
+  ],
+  "main": "reader.js",
+  "homepage": "https://github.com/NathanLaan/reader/",
+  "types": "reader.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
