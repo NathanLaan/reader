@@ -42,4 +42,5 @@ GitHub Pages configuration steps:
 
 ## References
 
+- [git2-rs](https://github.com/rust-lang/git2-rs): Rust bindings for `libgit2`.
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
