@@ -12,4 +12,5 @@ description = "A Rust Feed Reader implemented in WASM."
 crate-type = ["cdylib"]
 
 [dependencies]
+rss = "2.0.12"
 wasm-bindgen = "0.2"
